@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang ReadSpace</title>
+    <style>
+        /* Gaya Umum */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffebcd, #d2b48c);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .app-profile-container {
+            max-width: 600px;
+            width: 80%;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .app-header {
+            background: linear-gradient(135deg, #d2b48c, #ffebcd);
+            padding: 30px 20px;
+            text-align: center;
+            color: #fff;
+            border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .app-header img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 15px;
+        }
+
+        .app-header h1 {
+            font-size: 45px;
+            margin: 10px 0 5p45
+            font-weight: 100;
+        }
+
+        .app-header p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .app-details {
+            padding: 20px;
+        }
+
+        .app-details h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .app-details p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(135deg, #d2b48c, #ffebcd);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-footer {
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+
+        .app-footer a {
+            color: #d2b48c;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 5px;
+            transition: color 0.3s;
+        }
+
+        .app-footer a:hover {
+            color: #e39c41;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @media (max-width: 650px) {
+            .app-header h1 {
+                font-size: 22px;
+            }
+
+            .app-details h3 {
+                font-size: 16px;
+            }
+
+            .cta-button {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-profile-container">
+        <!-- Header Aplikasi -->
+        <div class="app-header">
+            <img src="LOGO.png" alt="Logo Aplikasi">
+            <h1>ReadSpace</h1>
+            <p>Versi: 3.7.1</p>
+        </div>
+
+        <!-- Detail Aplikasi -->
+        <div class="app-details">
+            <h3>Deskripsi</h3>
+            <p>
+                ReadSpace adalah aplikasi perpustakaan digital yang modern dan user-friendly untuk mempermudah akses berbagai buku.
+                Dengan fitur pencarian yang canggih, manajemen peminjaman yang mudah, ReadSpace hadir untuk mendukung kebutuhan baca dan belajar kamu kapan saja dan di mana saja.
+            </p>
+            <h3>Visi & Misi</h3>
+            <p>
+                <b>Visi:</b> Menjadi jembatan antara masyarakat dan ilmu pengetahuan melalui akses perpustakaan yang mudah, cepat, dan inklusif.</p>
+
+                <b>Misi:</b><br>
+                • Memberikan akses bacaan berkualitas tinggi kepada semua kalangan.<br>
+                • Meningkatkan minat baca masyarakat dengan teknologi modern.<br>
+                • Mendukung kegiatan akademik, penelitian, dan pengembangan diri melalui koleksi yang lengkap dan relevan.<br>
+                • Membangun budaya literasi digital yang cerdas dan bertanggung jawab.<br>
+            </p>
+            <a href="#" class="cta-button">Pelajari Lebih Lanjut</a>
+        </div>
+
+        <!-- Footer -->
+        <div class="app-footer">
+            <b><p>Hak Cipta 2025 &copy; ReadSpace. 
+                Semua Hak Dilindungi undang-undang.</p></b>
+            <a href="#">Kebijakan Privasi</a> | 
+            <a href="#">Syarat & Ketentuan</a> | 
+            <a href="Hubungi Kami.html">Hubungi Kami</a>
+        </div>
+    </div>
+</body>
+</html>
